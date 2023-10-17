@@ -1,0 +1,280 @@
+@media (max-width: 2560px){
+    .retangulo1{
+        margin-top: 400px;
+
+    }
+
+    .imagem{
+        display: block;
+        background: url("../images/image-product-desktop.jpg"), lightgray 50% /  no-repeat; 
+    }
+
+    .imagem2{
+        display: none;
+        background: url("../images/image-product-mobile.jpg"), lightgray 50% /  no-repeat; 
+    }
+}
+
+@media (max-width: 1920px){
+    .retangulo1{
+        margin-top: 260px;
+
+    }
+
+    .imagem{
+        display: block;
+        background: url("../images/image-product-desktop.jpg"), lightgray 50% /  no-repeat; 
+    }
+
+    .imagem2{
+        display: none;
+        background: url("../images/image-product-mobile.jpg"), lightgray 50% /  no-repeat; 
+    }
+}
+
+@media (max-width: 1280px){
+    .retangulo1{
+        margin-top: 100px;
+    }
+
+    .imagem{
+        display: block;
+        background: url("../images/image-product-desktop.jpg"), lightgray 50% /  no-repeat; 
+    }
+
+    .imagem2{
+        display: none;
+        background: url("../images/image-product-mobile.jpg"), lightgray 50% /  no-repeat; 
+    }
+}
+
+@media (max-width: 414px){
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .attribution { font-size: 11px; text-align: center; padding-top: 640px; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+        background: hsl(30, 38%, 92%);
+    }
+
+    .retangulo1{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin: 0 auto;
+        width: 343px;
+        height: 610px;
+        flex-shrink: 0; 
+        margin-top: 29px; 
+        margin-left: 33px;       
+    }
+
+    .classe{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 135px;
+        height: 12px;
+        flex-shrink: 0;
+        margin-top: 261px;
+        margin-left: 20px;
+    }
+
+    .nomeProduto{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 303px;
+        height: 60px;
+        margin-top: 290px;
+        margin-left: 20px;
+        
+    }
+
+    .descricao{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 282px;
+        height: 81px;
+        flex-shrink: 0;
+        margin-top: 360px;
+        margin-left: 24px;
+    }
+
+    .valor{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 216px;
+        height: 34px;
+        flex-shrink: 0;
+        margin-top: 482px;
+        margin-left: 24px;
+    }
+
+    .valor2{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 63px;
+        height: 15px;
+        flex-shrink: 0;
+        margin-top: 495px;
+        margin-left: 172px;     
+    }
+
+    .botao{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 296px;
+        height: 48px;
+        flex-shrink: 0;
+        margin-top: 537px;
+        margin-left: 24px;
+    }
+
+    .retangulo2{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 343px;
+        height: 240px;
+        flex-shrink: 0; 
+    }
+
+    .imagem{
+        display: none;
+        background: url("../images/image-product-desktop.jpg"), lightgray 50% /  no-repeat; 
+    }
+
+    .imagem2{
+        display: block;
+        background: url("../images/image-product-mobile.jpg"), lightgray 50% /  no-repeat;
+        border-radius: 10px 10px 0px 0px;
+        
+    }
+}
+
+
+@media (max-width: 375px){
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .attribution { font-size: 11px; text-align: center; padding-top: 640px; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+        background: hsl(30, 38%, 92%);
+    }
+
+    .retangulo1{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin: 0 auto;
+        width: 343px;
+        height: 610px;
+        flex-shrink: 0; 
+        margin-top: 29px; 
+        margin-left: 13px;       
+    }
+
+    .classe{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 135px;
+        height: 12px;
+        flex-shrink: 0;
+        margin-top: 261px;
+        margin-left: 20px;
+    }
+
+    .nomeProduto{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 303px;
+        height: 60px;
+        margin-top: 290px;
+        margin-left: 20px;
+        
+    }
+
+    .descricao{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 300px;
+        height: 81px;
+        flex-shrink: 0;
+        margin-top: 360px;
+        margin-left: 24px;
+    }
+
+    .valor{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 216px;
+        height: 34px;
+        flex-shrink: 0;
+        margin-top: 482px;
+        margin-left: 24px;
+    }
+
+    .valor2{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 63px;
+        height: 15px;
+        flex-shrink: 0;
+        margin-top: 495px;
+        margin-left: 172px;     
+    }
+
+    .botao{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 296px;
+        height: 48px;
+        flex-shrink: 0;
+        margin-top: 537px;
+        margin-left: 24px;
+    }
+
+    .retangulo2{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 343px;
+        height: 240px;
+        flex-shrink: 0; 
+    }
+
+    .imagem{
+        display: none;
+        background: url("../images/image-product-desktop.jpg"), lightgray 50% /  no-repeat; 
+    }
+
+    .imagem2{
+        display: block;
+        background: url("../images/image-product-mobile.jpg"), lightgray 50% /  no-repeat;
+        border-radius: 10px 10px 0px 0px;
+        
+    }
+}
+
+

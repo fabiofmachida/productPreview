@@ -1,0 +1,169 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    background: hsl(30, 38%, 92%);
+}
+
+.retangulo1{
+    width: 597px;
+    height: 450px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.classe{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 110px;
+    height: 14px;
+    flex-shrink: 0;
+    margin-top: 36px;
+    margin-left: 330px;
+    
+}
+
+.texto1{
+    color: hsl(228, 12%, 48%);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 5.16px;
+}
+
+.nomeProduto{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 199px;
+    height: 103px;
+    flex-shrink: 0;
+    margin-top: 78px;
+    margin-left: 330px;
+}
+
+.texto2{
+    color: #000;
+    font-family: Fraunces;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 83.333% */
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 243px;
+    height: 82px;
+    flex-shrink: 0;
+    margin-top: 185px;
+    margin-left: 330px;
+}
+
+.texto3{
+    color: hsl(228, 12%, 48%);
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px; /* 153.333% */
+    letter-spacing: -0.345px;
+}
+
+.valor{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 178px;
+    height: 41px;
+    flex-shrink: 0;
+    margin-left: 330px;
+    margin-top: 302px;
+}
+
+.texto4{
+    color: #3E7460;
+    font-family: Fraunces;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+}
+
+.valor2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 51px;
+    height: 18px;
+    flex-shrink: 0;
+    margin-left: 478px;
+    margin-top: 313px;
+}
+
+.texto5{
+    color: hsl(228, 12%, 48%);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: line-through;
+}
+
+.botao{
+    background: #3C8067; 
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 236px;
+    height: 48px;
+    flex-shrink: 0;
+    margin-left: 330px;
+    margin-top: 366px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.texto6{
+    margin: 0 auto;
+    margin-top: 15px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 45px;
+}
+
+.retangulo2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    flex-shrink: 0;
+}
+
+.imagem{
+    border-radius: 10px 0px 0px 10px;
+    background: url("../images/image-product-desktop.jpg"), lightgray 50% /  no-repeat; 
+}
+
